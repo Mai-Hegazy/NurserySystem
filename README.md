@@ -32,26 +32,25 @@ Follow these steps to set up the project locally:
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/Mai-Hegazy/NurserySystem.git
 
-2. Install dependencies
+### 2. Install dependencies
 For the API backend, ensure you have Visual Studio or VS Code installed with the required extensions.
 
 Install NuGet dependencies for the backend and frontend (if any).
 
-3. Configure the Database
+### 3. Configure the Database
 Make sure your database is set up and connection strings are configured in appsettings.json for SQL Server.
 
 Run migrations:
   dotnet ef database update
 
-4. Run the project
+### 4. Run the project
   Set NurserySystem.API as the startup project.
 
 Run the project, and the API should be available on the specified URL (e.g., https://localhost:5001).
 
-5. Frontend
+### 5. Frontend
 
 Go to the ClientApp folder.
 
