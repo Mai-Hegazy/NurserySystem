@@ -23,7 +23,6 @@ export class FormErrorsComponent implements  OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    console.log('changes:', changes );
     if (changes['backendErrors']) {
       this.setGeneralErrors();
     }
@@ -39,7 +38,6 @@ export class FormErrorsComponent implements  OnInit, OnChanges {
   }
 
   private setGeneralErrors() {
-    console.log(this.backendErrors, typeof this.backendErrors );
     if (this.backendErrors && typeof this.backendErrors === 'object') {
       // Filter out field-specific errors by checking if the key exists in the form
       const fieldKeys = this.formGroup ? Object.keys(this.formGroup.controls) : [];
@@ -51,8 +49,6 @@ export class FormErrorsComponent implements  OnInit, OnChanges {
     } else {
       this.generalBackendErrors = [];
     }
-
-    console.log('generalBackendErrors: ',this.generalBackendErrors);
   }
 
   errorMessages(control: AbstractControl): string[] {

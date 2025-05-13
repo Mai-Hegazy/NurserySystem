@@ -98,6 +98,7 @@ export class ChildFormComponent {
         error: (err) => this.handleServerError(err)
       });
     } else {
+      child.id = 0;
       this.childService.create(child).subscribe({
         next: () => this.router.navigate(['/children']),
         error: (err) => this.handleServerError(err)
@@ -106,8 +107,6 @@ export class ChildFormComponent {
   }
   
   private handleServerError(err: any) {
-    console.log("err: ", err );
-
     if (err.status === 400 && err.error?.errors) {
       this.backendErrors = err.error.errors;
       this.backendErrors = { ...err.error.errors };
@@ -116,8 +115,6 @@ export class ChildFormComponent {
       this.backendErrors = err?.error;
       this.backendErrors = { ...err.error };
     }
-    console.log("backendErrors: ", this.backendErrors );
-
   }
 
 }
