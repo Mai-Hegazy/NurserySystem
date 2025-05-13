@@ -58,14 +58,14 @@ Install dependencies and run the client:
 npm install
 npm start
 
-🧩 Features
+## 🧩 Features
 Child Enrollment: Add and manage children’s details.
 
 Modular Structure: The project is modular and easily extendable for more features in the future.
 
 Clean Architecture: Maintainable and testable code with separate layers for each responsibility.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Created by Mai Hegazy
 Feel free to connect via LinkedIn (https://www.linkedin.com/in/mai-hegazy/).
 
