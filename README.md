@@ -24,7 +24,7 @@ NurserySystem.Client → Angular frontend
 - **Other Tools**:
   - Git for version control
   - VS Code for development
-  - QLite Database for local data storage 
+  - SQLite Database for local data storage 
 
 ## 🚀 Getting Started
 
