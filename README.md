@@ -65,6 +65,14 @@ Modular Structure: The project is modular and easily extendable for more feature
 
 Clean Architecture: Maintainable and testable code with separate layers for each responsibility.
 
+## Home Page Screenshot
+
+![ChildrenList](docs/screenshots/ChildrenList.png)
+
+## Edit Child Screenshot
+
+![ChildrenList](docs/screenshots/EditChild.png)
+
 ## 👨‍💻 Author
 Created by Mai Hegazy
 Feel free to connect via LinkedIn (https://www.linkedin.com/in/mai-hegazy/).
