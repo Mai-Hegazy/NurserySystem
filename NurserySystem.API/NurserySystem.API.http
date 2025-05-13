@@ -1,0 +1,46 @@
+@NurserySystem.API_HostAddress = http://localhost:5207
+
+# GET {{NurserySystem.API_HostAddress}}/api/Child/
+# Accept: application/json
+
+###
+
+GET http://localhost:5207/api/Child
+Accept: application/json
+
+###
+
+GET http://localhost:5207/api/Child/3
+Accept: application/json
+
+###
+
+POST http://localhost:5207/api/Child
+Content-Type: application/json
+
+{
+   "fullName": "Tarik Gazzar",
+    "dateOfBirth": "2022-03-01T00:00:00",
+    "allergies": "N/A"
+}
+
+###
+
+PUT http://localhost:5207/api/Child/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "fullName": "Yahia Mohamed",
+    "dateOfBirth": "2022-05-22T00:00:00",
+    "allergies": "N/A",
+    "gender": 1,
+    "status": 1,
+    "bloodType": 1,
+    "address": null,
+    "notes": null
+}
+
+###
+
+DELETE http://localhost:5207/api/Child/2

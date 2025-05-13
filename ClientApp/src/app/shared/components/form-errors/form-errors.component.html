@@ -1,0 +1,16 @@
+<!-- General backend errors -->
+<div *ngIf="hasGeneralErrors()" class="general-error-messages" class="error-messages">
+    <div *ngFor="let err of generalBackendErrors">
+        <span class="error-message">{{ err }}</span>
+    </div>
+</div>
+
+<!-- Field validation errors -->
+<div *ngFor="let formCtrl of formControls">
+    <div *ngIf="formCtrl.control.invalid && (formCtrl.control.dirty || formCtrl.control.touched)"
+        class="error-messages">
+        <div *ngFor="let error of errorMessages(formCtrl.control)">
+            <span class="error-message">{{ formatLabel(formCtrl.name) }}: {{ error }}</span>
+        </div>
+    </div>
+</div>

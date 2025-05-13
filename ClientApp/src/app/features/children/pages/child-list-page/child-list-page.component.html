@@ -1,0 +1,50 @@
+<section class="section">
+
+  <div class="container section-title aos-init aos-animate">
+    <h2>Children List</h2>
+  </div>
+  <div class="container ">
+    <div class="service-item">
+    <div class=""> 
+      <a routerLink="/children/add" class="btn-getstarted">
+        <i class="fas fa-plus"></i> Add Child
+      </a>
+    </div> 
+    <div class="tableDiv">
+      <table *ngIf="children.length; else noChildren" class="table table-hover rounded-3 overflow-hidden">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Gender</th>
+            <th>Blood Type</th>
+            <th>Status</th>
+            <th class="actions-col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let child of children">
+            <td>{{child.fullName}}</td>
+            <td>{{child.dateOfBirth | date: 'yyyy-MM-dd'}}</td>
+            <td>{{child.gender}}</td>
+            <td>{{ getReadableBloodType(child.bloodType || '') }}</td>
+            <td>{{child.status}}</td>
+            <td>
+              <a [routerLink]="[ '/children/edit', child.id ]" class="action-icon">
+                <i class="fas fa-edit"></i>
+              </a>
+              <button (click)="deleteChild(child.id)" class="action-icon">
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <ng-template #noChildren>
+        <p>No children found.</p>
+      </ng-template>
+    </div>
+  </div>
+</div>
+</section>

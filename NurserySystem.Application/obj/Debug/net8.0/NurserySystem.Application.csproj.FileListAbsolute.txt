@@ -1,0 +1,17 @@
+D:\Study\Projects\NurserySystem.Application\bin\Debug\net8.0\NurserySystem.Application.deps.json
+D:\Study\Projects\NurserySystem.Application\bin\Debug\net8.0\NurserySystem.Application.dll
+D:\Study\Projects\NurserySystem.Application\bin\Debug\net8.0\NurserySystem.Application.pdb
+D:\Study\Projects\NurserySystem.Application\bin\Debug\net8.0\NurserySystem.Domain.dll
+D:\Study\Projects\NurserySystem.Application\bin\Debug\net8.0\NurserySystem.Infrastructure.dll
+D:\Study\Projects\NurserySystem.Application\bin\Debug\net8.0\NurserySystem.Domain.pdb
+D:\Study\Projects\NurserySystem.Application\bin\Debug\net8.0\NurserySystem.Infrastructure.pdb
+D:\Study\Projects\NurserySystem.Application\obj\Debug\net8.0\NurserySystem.Application.csproj.AssemblyReference.cache
+D:\Study\Projects\NurserySystem.Application\obj\Debug\net8.0\NurserySystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Projects\NurserySystem.Application\obj\Debug\net8.0\NurserySystem.Application.AssemblyInfoInputs.cache
+D:\Study\Projects\NurserySystem.Application\obj\Debug\net8.0\NurserySystem.Application.AssemblyInfo.cs
+D:\Study\Projects\NurserySystem.Application\obj\Debug\net8.0\NurserySystem.Application.csproj.CoreCompileInputs.cache
+D:\Study\Projects\NurserySystem.Application\obj\Debug\net8.0\NurseryS.0C000073.Up2Date
+D:\Study\Projects\NurserySystem.Application\obj\Debug\net8.0\NurserySystem.Application.dll
+D:\Study\Projects\NurserySystem.Application\obj\Debug\net8.0\refint\NurserySystem.Application.dll
+D:\Study\Projects\NurserySystem.Application\obj\Debug\net8.0\NurserySystem.Application.pdb
+D:\Study\Projects\NurserySystem.Application\obj\Debug\net8.0\ref\NurserySystem.Application.dll

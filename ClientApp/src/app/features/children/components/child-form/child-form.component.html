@@ -1,0 +1,71 @@
+<section class="features section">
+    <div class="container section-title aos-init aos-animate">
+        <h2>{{ isEditMode ? "Edit Child" : "Add New Child" }}</h2>
+    </div>
+    <div class="container">
+        <div class="row justify-content-between">
+            <form [formGroup]="childForm" (ngSubmit)="onSubmit()">
+                <input type="hidden" formControlName="id" />
+                <div class="row">
+                    <div class="col form-floating mb-3">
+                        <input type="text" class="form-control" placeholder="Full Name" formControlName="fullName">
+                        <label class="floatingInput" for="fullName">Full Name</label>
+                    </div>
+                    <div class="col form-floating mb-3">
+                        <input type="date" class="form-control" placeholder="Date of Birth"
+                            formControlName="dateOfBirth">
+                        <label class="floatingInput" for="dateOfBirth">Date of Birth</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class=" col form-floating mb-3">
+                        <select class="form-select" formControlName="gender">
+                            <option>--- Select ---</option>
+                            <option *ngFor="let g of genderEnum" [value]="g.value">{{ g.label }}</option>
+                        </select>
+                        <label class="floatingInput" for="gender">Gender</label>
+                    </div>
+                    <div class=" col form-floating mb-3">
+                        <select class="form-select" formControlName="bloodType">
+                            <option>--- Select ---</option>
+                            <option *ngFor="let bt of bloodTypeEnum" [value]="bt.label">{{ bt.value }}</option>
+                        </select>
+                        <label class="floatingInput" for="gender">Blood Type</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col form-floating mb-3">
+                        <input type="text" class="form-control" placeholder="Address" formControlName="address" />
+                        <label class="floatingInput" for="address">Address</label>
+                    </div>
+                    <div class="col form-floating mb-3">
+                        <input type="text" class="form-control" placeholder="Allergies" formControlName="allergies" />
+                        <label class="floatingInput" for="allergies">Allergies</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col form-floating mb-3">
+                        <select class="form-select" formControlName="status">
+                            <option>--- Select ---</option>
+                            <option *ngFor="let s of childStatusOptions" [value]="s.value">{{ s.label }}</option>
+                        </select>
+                        <label class="floatingInput" for="status">Status</label>
+                    </div>
+                    <div class="col form-floating mb-3">
+                        <textarea placeholder="Notes" class="form-control" formControlName="notes"></textarea>
+                        <label class="floatingInput" for="n">Notes</label>
+                    </div>
+                </div>
+                <app-form-errors 
+                    [formGroup]="childForm"
+                    [backendErrors]="backendErrors"
+                    [customMessages]="errorMessages">
+                </app-form-errors>
+
+                <button class="btn-getstarted" type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,11 @@
+D:\Study\Projects\NurserySystem.Domain\bin\Debug\net8.0\NurserySystem.Domain.deps.json
+D:\Study\Projects\NurserySystem.Domain\bin\Debug\net8.0\NurserySystem.Domain.dll
+D:\Study\Projects\NurserySystem.Domain\bin\Debug\net8.0\NurserySystem.Domain.pdb
+D:\Study\Projects\NurserySystem.Domain\obj\Debug\net8.0\NurserySystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Projects\NurserySystem.Domain\obj\Debug\net8.0\NurserySystem.Domain.AssemblyInfoInputs.cache
+D:\Study\Projects\NurserySystem.Domain\obj\Debug\net8.0\NurserySystem.Domain.AssemblyInfo.cs
+D:\Study\Projects\NurserySystem.Domain\obj\Debug\net8.0\NurserySystem.Domain.csproj.CoreCompileInputs.cache
+D:\Study\Projects\NurserySystem.Domain\obj\Debug\net8.0\NurserySystem.Domain.dll
+D:\Study\Projects\NurserySystem.Domain\obj\Debug\net8.0\refint\NurserySystem.Domain.dll
+D:\Study\Projects\NurserySystem.Domain\obj\Debug\net8.0\NurserySystem.Domain.pdb
+D:\Study\Projects\NurserySystem.Domain\obj\Debug\net8.0\ref\NurserySystem.Domain.dll

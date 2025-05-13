@@ -1,0 +1,17 @@
+D:\Study\Projects\NurserySystem.Infrastructure\bin\Debug\net8.0\NurserySystem.Infrastructure.deps.json
+D:\Study\Projects\NurserySystem.Infrastructure\bin\Debug\net8.0\NurserySystem.Infrastructure.runtimeconfig.json
+D:\Study\Projects\NurserySystem.Infrastructure\bin\Debug\net8.0\NurserySystem.Infrastructure.dll
+D:\Study\Projects\NurserySystem.Infrastructure\bin\Debug\net8.0\NurserySystem.Infrastructure.pdb
+D:\Study\Projects\NurserySystem.Infrastructure\bin\Debug\net8.0\NurserySystem.Domain.dll
+D:\Study\Projects\NurserySystem.Infrastructure\bin\Debug\net8.0\NurserySystem.Domain.pdb
+D:\Study\Projects\NurserySystem.Infrastructure\obj\Debug\net8.0\NurserySystem.Infrastructure.csproj.AssemblyReference.cache
+D:\Study\Projects\NurserySystem.Infrastructure\obj\Debug\net8.0\NurserySystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Projects\NurserySystem.Infrastructure\obj\Debug\net8.0\NurserySystem.Infrastructure.AssemblyInfoInputs.cache
+D:\Study\Projects\NurserySystem.Infrastructure\obj\Debug\net8.0\NurserySystem.Infrastructure.AssemblyInfo.cs
+D:\Study\Projects\NurserySystem.Infrastructure\obj\Debug\net8.0\NurserySystem.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Study\Projects\NurserySystem.Infrastructure\obj\Debug\net8.0\NurseryS.ACB0A085.Up2Date
+D:\Study\Projects\NurserySystem.Infrastructure\obj\Debug\net8.0\NurserySystem.Infrastructure.dll
+D:\Study\Projects\NurserySystem.Infrastructure\obj\Debug\net8.0\refint\NurserySystem.Infrastructure.dll
+D:\Study\Projects\NurserySystem.Infrastructure\obj\Debug\net8.0\NurserySystem.Infrastructure.pdb
+D:\Study\Projects\NurserySystem.Infrastructure\obj\Debug\net8.0\NurserySystem.Infrastructure.genruntimeconfig.cache
+D:\Study\Projects\NurserySystem.Infrastructure\obj\Debug\net8.0\ref\NurserySystem.Infrastructure.dll

@@ -1,0 +1,24 @@
+<header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+    <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <img src="assets/img/logo.png" alt="">
+      <h1 class="sitename">Nursury System</h1>
+    </a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a calss="active" routerLink="/children">Children</a></li>
+        <li><a href="index.html#about" class="">Parents</a></li>
+        <li><a href="index.html#features" class="">Classrooms</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+  </div>
+</header>
+
+<main class="main">
+  <div class="light-background">
+    <router-outlet />
+  </div>
+</main>
