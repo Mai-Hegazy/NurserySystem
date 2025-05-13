@@ -34,6 +34,7 @@ Follow these steps to set up the project locally:
 
 ```bash
 git clone https://github.com/Mai-Hegazy/NurserySystem.git
+
 2. Install dependencies
 For the API backend, ensure you have Visual Studio or VS Code installed with the required extensions.
 
